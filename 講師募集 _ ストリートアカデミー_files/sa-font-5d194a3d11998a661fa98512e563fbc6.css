@@ -1,0 +1,336 @@
+@font-face {
+  font-family: 'sa-font';
+  src: url("/assets/streetacademy.eot");
+  src: url("/assets/streetacademy.eot#iefix") format("embedded-opentype"), url("/assets/streetacademy.woff") format("woff"), url("/assets/streetacademy.ttf") format("truetype"), url("/assets/streetacademy.svg?39y9qh#streetacademy") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 11, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+[class^="icon-sa-"], [class*=" icon-sa-"] {
+  font-family: 'sa-font';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 25, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-star:before {
+  content: "\e63e";
+}
+
+/* line 29, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-course:before {
+  content: "\e63d";
+}
+
+/* line 33, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-art:before {
+  content: "\e600";
+}
+
+/* line 37, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-business:before {
+  content: "\e601";
+}
+
+/* line 41, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-camera:before {
+  content: "\e602";
+}
+
+/* line 45, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-cooking:before {
+  content: "\e603";
+}
+
+/* line 49, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-craft:before {
+  content: "\e604";
+}
+
+/* line 53, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-health:before {
+  content: "\e605";
+}
+
+/* line 57, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-hobby:before {
+  content: "\e606";
+}
+
+/* line 61, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-language:before {
+  content: "\e607";
+}
+
+/* line 65, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-lifehack:before {
+  content: "\e608";
+}
+
+/* line 69, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-mama_kids:before {
+  content: "\e609";
+}
+
+/* line 73, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-sports:before {
+  content: "\e60a";
+}
+
+/* line 77, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-teacher:before {
+  content: "\e60b";
+}
+
+/* line 81, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-tech:before {
+  content: "\e60c";
+}
+
+/* line 85, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-venture:before {
+  content: "\e60d";
+}
+
+/* line 89, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-minus:before {
+  content: "\e60e";
+}
+
+/* line 93, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-add-user:before {
+  content: "\e60f";
+}
+
+/* line 97, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-arrow:before {
+  content: "\e63c";
+}
+
+/* line 101, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-arrow-circle-right:before {
+  content: "\e610";
+}
+
+/* line 105, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-bell:before {
+  content: "\e611";
+}
+
+/* line 109, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-burger:before {
+  content: "\e612";
+}
+
+/* line 113, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-calendar:before {
+  content: "\e613";
+}
+
+/* line 117, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-car:before {
+  content: "\e614";
+}
+
+/* line 121, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-card:before {
+  content: "\e615";
+}
+
+/* line 125, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-cards:before {
+  content: "\e616";
+}
+
+/* line 129, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-check-circle:before {
+  content: "\e617";
+}
+
+/* line 133, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-crown:before {
+  content: "\e618";
+}
+
+/* line 137, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-delete:before {
+  content: "\e619";
+}
+
+/* line 141, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-dm:before {
+  content: "\e61a";
+}
+
+/* line 145, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-edit:before {
+  content: "\e61b";
+}
+
+/* line 149, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-folder:before {
+  content: "\e61c";
+}
+
+/* line 153, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-heart-circle:before {
+  content: "\e61d";
+}
+
+/* line 157, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-heart:before {
+  content: "\e61e";
+}
+
+/* line 161, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-held:before {
+  content: "\e61f";
+}
+
+/* line 165, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-help-circle:before {
+  content: "\e620";
+}
+
+/* line 169, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-member:before {
+  content: "\e621";
+}
+
+/* line 173, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-message:before {
+  content: "\e622";
+}
+
+/* line 177, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-organizer:before {
+  content: "\e623";
+}
+
+/* line 181, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-past:before {
+  content: "\e624";
+}
+
+/* line 185, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-pencil:before {
+  content: "\e625";
+}
+
+/* line 189, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-people:before {
+  content: "\e626";
+}
+
+/* line 193, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-place:before {
+  content: "\e627";
+}
+
+/* line 197, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-plus:before {
+  content: "\e628";
+}
+
+/* line 201, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-point:before {
+  content: "\e629";
+}
+
+/* line 205, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-review-circle:before {
+  content: "\e62a";
+}
+
+/* line 209, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-review:before {
+  content: "\e62b";
+}
+
+/* line 213, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-ribbon:before {
+  content: "\e62c";
+}
+
+/* line 217, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-rock:before {
+  content: "\e62d";
+}
+
+/* line 221, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-sales-circle:before {
+  content: "\e62e";
+}
+
+/* line 225, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-sales:before {
+  content: "\e62f";
+}
+
+/* line 229, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-search:before {
+  content: "\e630";
+}
+
+/* line 233, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-setting:before {
+  content: "\e631";
+}
+
+/* line 237, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-stamp-fun:before {
+  content: "\e632";
+}
+
+/* line 241, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-stamp-study:before {
+  content: "\e633";
+}
+
+/* line 245, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-stamp-worth:before {
+  content: "\e634";
+}
+
+/* line 249, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-student:before {
+  content: "\e635";
+}
+
+/* line 253, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-study-history:before {
+  content: "\e636";
+}
+
+/* line 257, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-timer:before {
+  content: "\e637";
+}
+
+/* line 261, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-toku-circle:before {
+  content: "\e638";
+}
+
+/* line 265, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-toku:before {
+  content: "\e639";
+}
+
+/* line 269, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-train:before {
+  content: "\e63a";
+}
+
+/* line 273, ../../../app/assets/stylesheets/globals/sa-font.css.scss.erb */
+.icon-sa-walk:before {
+  content: "\e63b";
+}

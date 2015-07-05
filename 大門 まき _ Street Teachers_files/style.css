@@ -1,0 +1,1875 @@
+/*
+	Theme Name: Street Teachers
+	Theme URI: http://www.street-teachers.com/ 
+	Description: A theme for Street Teachers
+	Version: 2013-05-23
+	Author: template coded by Tesko, Inc.
+*/
+
+
+/* ================================================================================
+   Default styles
+   ================================================================================ */
+
+/*  normalize.css v1.1.1 | MIT License | git.io/normalize */
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none;height:0}[hidden]{display:none}html{background:#fff;color:#000;font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html,button,input,select,textarea{font-family:sans-serif}body{margin:0}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em;margin:.67em 0}h2{font-size:1.5em;margin:.83em 0}h3{font-size:1.17em;margin:1em 0}h4{font-size:1em;margin:1.33em 0}h5{font-size:.83em;margin:1.67em 0}h6{font-size:.67em;margin:2.33em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}mark{background:#ff0;color:#000}p,pre{margin:1em 0}code,kbd,pre,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}dl,menu,ol,ul{margin:1em 0}dd{margin:0 0 0 40px}menu,ol,ul{padding:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0;white-space:normal;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;*overflow:visible}button[disabled],html input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*height:13px;*width:13px}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+
+/* Base styles: based on opinionated defaults | html5boilerplate.com */
+html,button,input,select,textarea{color:#222}body{font-size:1em;line-height:1.6}::-moz-selection{background:#b3d4fc;text-shadow:none}::selection{background:#b3d4fc;text-shadow:none}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}img{vertical-align:middle}fieldset{border:0;margin:0;padding:0}textarea{resize:vertical}
+
+/* Chrome Frame prompt */
+.chromeframe{margin:.2em 0;background:#ccc;color:#000;padding:.2em 0}
+
+/* Helper classes */
+.ir{background-color:transparent;border:0;overflow:hidden;*text-indent:-9999px}.ir:before{content:"";display:block;width:0;height:150%}.hidden{display:none !important;visibility:hidden}.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.invisible{visibility:hidden}.clearfix:before,.clearfix:after{content:" ";display:table}.clearfix:after{clear:both}.clearfix{*zoom:1;}
+
+
+/* ================================================================================
+   --------------------------------------------------------------------------------
+
+  Street Teachers Academy | http://www.street-teachers.com/ 
+
+   --------------------------------------------------------------------------------
+   ================================================================================ */
+
+
+/* ================================================================================
+   layout
+   ================================================================================ */
+
+/* body
+ * -------------------------------------------------------------------------------- */
+
+body{
+	background-color: #f2f2f2;
+}
+
+
+/* anchors
+ * -------------------------------------------------------------------------------- */
+
+a:link{
+	color: #a4d645;
+	font-weight: bold;
+}
+
+a:visited{
+	color: #777;
+}
+
+a:visited:hover,
+a:hover{
+	color: #000;
+}
+
+
+/* ================================================================================
+   wrapper
+   ================================================================================ */
+
+.wrapper{
+	width: 980px;
+	margin: 0 auto;
+}
+
+
+/* ================================================================================
+   header
+   ================================================================================ */
+
+.header-container{
+	height: 109px;
+	background: transparent url(./images/header-bg.png) scroll repeat-x 0 0;
+}
+
+.header-logo-container{
+	position: relative;
+	float: left;
+	width: 383px;
+	height: 90px;
+	background: #fff url(./images/header-logo-bg.png) scroll repeat-x 0 0;
+	border-radius: 0 0 8px 8px;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .27);
+}
+
+.header-logo-container:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -25px;
+	display: block;
+	width: 25px;
+	height: 90px;
+	background: transparent url(./images/header-logo-container-shadow.png) scroll no-repeat 0 0;
+}
+
+.header-logo{
+	width: 383px;
+	height: 90px;
+	padding: 0;
+	margin: 0;
+	font-size: 0;
+	line-height: 0;
+}
+
+.header-logo a{
+	display: block;
+	width: 383px;
+	height: 90px;
+	background: transparent url(./images/header-logo.png) scroll no-repeat 24px 26px;
+}
+
+.header-tagline{
+	float: left;
+	width: 325px;
+	height: 17px;
+	margin: 33px 0 0 26px;
+	background: transparent url(./images/header-tagline.png) scroll no-repeat 0 0;
+}
+
+
+/* ================================================================================
+   main
+   ================================================================================ */
+
+.main-container{
+	margin: 0 0 35px;
+}
+
+
+/* ================================================================================
+   contetnt
+   ================================================================================ */
+
+.content{
+	float: left;
+	width: 700px;
+	background-color: #fff;
+	box-shadow: inset 0 0 0 1px #d1d1d1;
+}
+
+
+/* ================================================================================
+   sidebar
+   ================================================================================ */
+
+.sidebar{
+	float: right;
+	width: 250px;
+}
+
+.sidebar-widget{
+	margin: 0 0 30px;
+}
+
+
+/* sidebar-badges */
+
+.sidebar-badges ul{
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar-badges li{
+	list-style-type: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar-badges li:last-child{
+	float: right;
+	margin: 15px 0 0 0;
+}
+
+
+/* popular-posts, recent-posts */
+
+.widget_myrecentpostswidget h2,
+.widget_rrm_popular_posts h2,
+.recent-posts h2{
+	margin: 0 0 15px;
+	padding: 10px 0;
+	color: #16462c;
+	background-image: url(./images/border-green.png), url(./images/border-green.png);
+	background-attachment: scroll scroll;
+	background-repeat: repeat-x, repeat-x;
+	background-position: top left, bottom left;
+	font-size: 1em;
+}
+
+
+/* widget_recent_entries */
+
+.listed-entry{
+	margin: 0 0 15px;
+}
+
+.listed-entry .entry-detail{
+	position: relative;
+	float: right;
+	width: 180px;
+}
+
+.listed-entry .entry-detail h3{
+	margin: 0;
+	color: #424242;
+	font-size: 1em;
+}
+
+.listed-entry .entry-detail h3 a:link{
+	color: #424242;
+	text-decoration: none;
+}
+
+.entry-category{
+	position: absolute;
+	top: 1px;
+	right: 0;
+	font-size: .71em;
+}
+
+.listed-entry .entry-description{
+	margin: 5px 0 0 0;
+	font-size: .71em;
+	line-height: 1.6;
+}
+
+.listed-entry .entry-description a:link{
+	color: #424242;
+	font-weight: normal;
+}
+
+.listed-entry .entry-image{
+	overflow: hidden;
+	float: left;
+	width: 62px;
+	height: 62px;
+	background-color: #ddd;
+}
+
+.listed-entry .entry-image a{
+	display: block;
+	width: 62px;
+	height: 62px;
+}
+
+.listed-entry .entry-image img{
+	width: 62px;
+}
+
+
+/* widget_archive */
+
+.widget_archive a:link{
+	color: #424242;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.widget_archive a:hover,
+.widget_archive a:visited:hover{
+	color: #a4d645;
+}
+
+
+/* widget_mycategorieswidget, widget_archive */
+
+.widget_mycategorieswidget,
+.widget_archive{
+	z-index: 1;
+	position: relative;
+	padding: 15px;
+	border-radius: 7px;
+	background: #fcfcfc url(./images/bg-pattern-subtle-light-1.png) scroll repeat 0 0;
+	box-shadow: 0 2px 0 1px rgba(0, 0, 0, .02), 0 6px 12px -4px rgba(0, 0, 0, .1)
+}
+
+.widget_mycategorieswidget h2,
+.widget_archive h2{
+	margin: 0 0 15px;
+	color: #16462c;
+	font-size: 1em;
+}
+
+.widget_mycategorieswidget ul,
+.widget_archive ul{
+	margin: 0;
+	padding: 0;
+}
+
+.widget_mycategorieswidget li,
+.widget_archive li{
+	list-style-type: none;
+	padding: 0;
+	font-size: .81em;
+}
+
+.widget_mycategorieswidget li:before,
+.widget_archive li:before{
+	content: '>';
+	padding: 0 10px 0 0;
+	color: #999798;
+	font-size: .75em;
+	font-weight: bold;
+}
+
+
+/* ================================================================================
+   entry
+   ================================================================================ */
+
+/* entry-header
+ * -------------------------------------------------------------------------------- */
+
+.entry-header{
+	width: 636px;
+	background-color: #f2f2f2;
+	margin: 15px;
+	padding: 14px 17px;
+	border-radius: 7px;
+	box-shadow: inset 0 0 0 1px rgba(239, 238, 237, .82), inset 0 2px 0 0 rgba(128, 128, 128, .13);
+	line-height: 1.4;
+}
+
+.entry-header .teacher-profile{
+	float: right;
+	width: 440px;
+}
+
+.entry-header .teacher-name{
+	margin: 0;
+	font-size: 2.2em;
+}
+
+.entry-header .teacher-name a:link,
+.entry-header .teacher-name a:visited{
+	color: #222;
+}
+
+.entry-header .teacher-name a:visited:hover,
+.entry-header .teacher-name a:hover{
+	color: #a4d645;
+}
+
+.entry-header .teacher-profile ul{
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+
+.entry-header .teacher-profile li{
+	list-style-type: none;
+	margin: 0;
+}
+
+.entry-header .teacher-name-roman{
+	display: inline-block;
+	color: #424242;
+	font-size: 1.1em;
+	font-family: "New York", "Times", serif;
+}
+
+.entry-header .teacher-title{
+	display: inline-block;
+	padding-left: .5em;
+	color: #424242;
+	font-size: 1.05em;
+}
+
+.entry-header .entry-categories{
+	display: block;
+	padding: 5px 0 0 0;
+	font-size: .75em;
+}
+
+.entry-header .teacher-excerpt{
+	margin: 20px 0 0 0;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #4c4c4c;
+}
+
+.entry-header .teacher-photo{
+	overflow: hidden;
+	float: left;
+	width: 177px;
+	height: 177px;
+	background-color: #ddd;
+}
+
+.entry-header .teacher-photo img{
+	width: 177px;
+}
+
+
+/* entry-meta
+ * -------------------------------------------------------------------------------- */
+
+.entry-meta{
+	margin: 0 17px 30px 17px;
+	padding: 10px 17px;
+	background-color: #f2f2f2;
+}
+
+.entry-meta ul{
+	float: left;
+	width: 370px;
+	margin: 0;
+	padding: 0;
+}
+
+.entry-meta li{
+	list-style-type: none;
+	display: inline;
+	margin: 0;
+	color: #424242;
+	font-size: .83em;
+}
+
+.btn-share{
+	float: right;
+	width: 250px;
+	text-align: right;
+}
+
+.btn-share>div{
+	overflow: hidden;
+	display: inline-block;
+	width: 100px;
+}
+
+.btn-twitter{}
+.btn-facebook{}
+
+
+/* entry-body
+ * -------------------------------------------------------------------------------- */
+
+.entry-body{
+	margin: 14px 17px;
+	font-size: .9em;
+	line-height: 1.6;
+}
+
+.entry-body h2{
+	color:#4c4c4c;
+}
+
+.entry-body p{
+	line-height: 1.8;
+}
+
+.interviewer{
+	color: #13713e;
+	font-weight: bold;
+	
+}
+
+.interviewee{
+	color: #848384;
+	line-height: 1.8;
+}
+
+
+/* pagination
+ * -------------------------------------------------------------------------------- */
+
+.pagination{
+	margin: 96px 17px 14px;
+	text-align: center;
+}
+
+.pagination a{
+	display: inline-block;
+	padding: .25em .5em;
+	box-shadow: inset 0 0 0 1px #d6d6d6;
+	text-decoration: none;
+}
+
+.pagination span{
+	display: inline-block;
+	padding: .25em .5em;
+	color: #fff;
+	background-color: #a4d645;
+}
+
+.pagination a:not([class]):hover{
+	background-color: #a4d645;
+}
+
+.pagination a:link{
+	color: #a4d645;
+	text-decoration: none;
+}
+
+.pagination a:not([class]):hover,
+.pagination a:not([class]):visited:hover{
+	color: #fff;
+	background-color: #a4d645;
+}
+
+.pagination a.prev,
+.pagination a.next{
+	display: inline-block;
+	padding: .25em .5em;
+	box-shadow: none;
+	font-weight: normal;
+}
+
+.pagination a.prev:link,
+.pagination a.next:link{
+	color: #838383;
+}
+
+.pagination a.prev:before,
+.pagination a.next:after{
+	display: inline-block;
+	margin: 0 .25em;
+	padding: .25em .5em;
+	box-shadow: inset 0 0 0 1px #d6d6d6;
+	font-weight: bold;
+}
+
+.pagination a.prev:before{
+	content: '<';
+}
+.pagination a.next:after{
+	content: '>';
+}
+
+.pagination a.prev:hover,
+.pagination a.next:hover,
+.pagination a.prev:visited:hover,
+.pagination a.next:visited:hover{
+	color: #a4d645;
+}
+
+.pagination a.prev:hover:before,
+.pagination a.next:hover:after{
+	color: #fff;
+	background-color: #a4d645;
+}
+
+
+/* ==========================================================================
+ * entries
+ * ========================================================================== */
+
+.entries-header{
+	width: 664px;
+	background-color: #f2f2f2;
+	margin: 1px;
+	padding: 14px 17px;
+	box-shadow: 0 1px 0 0 #d1d1d1, 0 3px 6px 0 rgba(0, 0, 0, .1)
+}
+
+.entries-header h1{
+	margin: 0;
+	font-size: 1em;
+}
+
+.entries .entry{
+	padding-bottom: 17px;
+	background: transparent url(./images/border-grey-dotted.png) scroll repeat-x left bottom;
+}
+
+.entries .entry:last-child{
+	background-image: none;
+}
+
+.entries .entry-header{
+	width: 666px;
+	margin: 15px 17px 10px;
+	padding: 0;
+	background-color: #fff;
+	border-radius: 0;
+	box-shadow: none;
+	line-height: 1.3;
+}
+
+.entries .entry-header .teacher-profile{
+	width: 525px;
+}
+
+.entries .entry-header .teacher-name{
+	display: inline-block;
+	font-size: 1.5em;
+}
+
+.entries .entry-header .teacher-name a:link,
+.entries .entry-header .teacher-name a:visited{
+	color: #222;
+}
+
+.entries .entry-header .teacher-name a:visited:hover,
+.entries .entry-header .teacher-name a:hover{
+	color: #a4d645;
+}
+
+.entries .entry-header .teacher-profile ul{
+	display: inline;
+	margin: 0;
+}
+
+.entries .entry-header .teacher-name-roman{
+	padding-left: .5em;
+}
+
+.entries .entry-header .teacher-title{
+	display: block;
+	padding-left: 0;
+	font-size: .91em;
+}
+
+.entries .entry-header .teacher-excerpt{
+	margin: 10px 0 0 0;
+	font-size: .91em;
+	color: #424242;
+}
+
+.entries .entry-header .teacher-photo{
+	width: 125px;
+	height: 125px;
+	background-color: #ddd;
+}
+
+.entries .entry-header .teacher-photo a{
+	display: block;
+	width: 125px;
+	height: 125px;
+}
+
+.entries .entry-header .teacher-photo img{
+	width: 125px;
+}
+
+
+/* entry-meta
+ * -------------------------------------------------------------------------------- */
+
+.entries .entry-meta{
+	margin: 0 17px 0;
+	padding: 10px 17px;
+	background-color: #f2f2f2;
+}
+
+
+/* ==========================================================================
+ * footer
+ * ========================================================================== */
+
+.footer-container{
+	padding: 17px 0 0 0;
+	background: #a4d645 url(./images/border-white-dotted.png) scroll repeat-x 0 0;
+	box-shadow: 0 -5px 0 0 #a4d645, 0 -7px 0 0 #9fcb4d;
+}
+
+
+/* footer-entry-meta */
+
+.footer-entry-meta{
+	padding: 0 0 15px;
+}
+
+.footer-teacher-profile-container{
+	float: left;
+	width: 270px;
+	padding: 15px;
+	background: #fff url(./images/bg-pattern-subtle-light-1.png) scroll repeat 0 0;
+	border-radius: 7px;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, .18);
+}
+
+.footer-teacher-profile-container h2{
+	margin: 0 0 15px;
+	color: #424242;
+	font-size: .9em;
+	text-align: center;
+}
+
+.footer-teacher-profile .teacher-profile{
+	float: right;
+	width: 140px;
+	margin: 0 0 15px;
+	line-height: 1.4;
+}
+
+.footer-teacher-profile .teacher-name{
+	margin: 0;
+	color: #424242;
+	font-size: 1.25em;
+}
+
+.footer-teacher-profile .teacher-profile ul{
+	margin: 0;
+	padding: 0;
+}
+
+.footer-teacher-profile .teacher-profile li{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-teacher-profile .teacher-profile li.teacher-name-roman{
+	display: block;
+	color: #424242;
+	font-size: .93em;
+	font-family: "New York", "Times", serif;
+}
+
+.footer-teacher-profile .teacher-profile li.teacher-title{
+	display: block;
+	color: #848384;
+	margin: 5px 0;
+	font-size: .83em;
+}
+
+.footer-teacher-profile .teacher-profile li.teacher-web-icons ul{
+	margin: 0 0 5px;
+}
+
+.footer-teacher-profile .teacher-profile li.teacher-web-icons li{
+	display: inline-block;
+	margin-right: 3px;
+}
+
+.web-icon{
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	vertical-align: middle;
+	background: transparent url(./images/webicon.png) scroll no-repeat 0 0;
+}
+
+.icon-twitter{
+	background-position: 0 0;
+}
+
+.icon-facebook{
+	background-position: -17px 0;
+}
+
+.icon-gplus{
+	background-position: -34px 0;
+}
+
+.icon-linkedin{
+	background-position: -51px 0;
+}
+
+.icon-ameba{
+	background-position: -68px 0;
+}
+
+.footer-teacher-profile .teacher-profile li.teacher-web{
+	font-size: .75em;
+}
+
+.footer-teacher-profile .teacher-profile li.teacher-web a:link{
+	color: #222;
+}
+
+.footer-teacher-profile .teacher-profile li.teacher-web a:hover,
+.footer-teacher-profile .teacher-profile li.teacher-web a:visited:hover{
+	color: #a4d645;
+}
+
+.footer-teacher-profile .teacher-photo{
+	overflow: hidden;
+	float: left;
+	width: 120px;
+	height: 120px;
+	background-color: #ddd;
+}
+
+.footer-teacher-profile .teacher-photo img{
+	width: 120px;
+}
+
+.footer-teacher-introduction{
+	color: #676767;
+	font-size: .75em;
+	line-height: 1.6;
+}
+
+.footer-teacher-profile-link{
+	margin: 15px 0 0;
+	text-align: right;
+}
+
+.footer-teacher-profile-link a{
+	font-size: .75em;
+}
+
+.footer-teacher-profile-link a:link{
+	color: #79ba32;
+	text-decoration: none;
+}
+
+.footer-teacher-profile-link a:hover,
+.footer-teacher-profile-link a:visited:hover{
+	color: #000;
+}
+
+/* .footer-classes */
+
+.footer-classes{
+	float: right;
+	width: 620px;
+	padding: 15px;
+	background-color: #fff;
+	box-shadow: 0 2px 0 0 rgba(0, 0, 0, .27);
+}
+
+.footer-classes h2{
+	margin: 0 0 10px;
+	padding: 0 0 0 15px;
+	color: #5c5c5b;
+	font-size: 1.1em;
+}
+
+.footer-class{
+	padding: 12px 15px;
+	background: transparent url(./images/border-grey.png) scroll repeat-x 0 0;
+}
+
+.footer-class h3{
+	margin: 0 0 5px;
+	font-size: .91em;
+}
+
+.footer-class h3 a:link{
+	color: #9fcb4d;
+}
+
+.footer-class h3 a:hover,
+.footer-class h3 a:visited:hover{
+	color: #000;
+}
+
+.footer-class .class-image{
+	overflow: hidden;
+	float: left;
+	width: 87px;
+	height: 87px;
+	background-color: #fddd;
+}
+
+.footer-class .class-image img{
+	width: 87px;
+}
+
+.footer-class .class-detail{
+	float: right;
+	width: 490px;
+}
+
+.footer-class .class-date{
+	margin: 0 0 5px;
+	color: #676767;
+	font-size: .91em;
+	font-weight: bold;
+	line-height: 22px;
+}
+
+.icon-date{
+	display: inline-block;
+	width: 25px;
+	height: 22px;
+	margin: 0 5px 0 0;
+	vertical-align: middle;
+	background: transparent url(./images/icon.png) scroll no-repeat -200px 0;
+}
+
+.footer-class .class-description{
+	color: #676767;
+	font-size: .75em;
+	line-height: 1.6;
+}
+
+.footer-class-link{
+	padding: 8px 0 0;
+	background: transparent url(./images/border-grey.png) scroll repeat-x 0 0;
+	text-align: right;
+}
+
+.footer-class-link a{
+	font-size: .91em;
+}
+
+.footer-class-link a:link{
+	color: #79ba32;
+}
+
+.footer-class-link a:hover,
+.footer-class-link a:visited:hover{
+	color: #000;
+}
+
+/* footer-utilities */
+
+.footer-utilities{
+	padding: 16px 0;
+	background: #f9f9f9 url(./images/footer-utilities-bg.png) scroll repeat 0 0;
+}
+
+.footer-street-academy-logo{
+	float: left;
+	width: 300px;
+	height: 90px;
+	margin: 0;
+	background-color: #fff;
+	border-radius: 7px;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1), 0 0 27px 0 rgba(0, 0, 0, .1);
+	overflow: hidden;
+}
+
+.footer-street-academy-logo a{
+	display: block;
+	width: 218px;
+	height: 51px;
+	padding: 15px 70px 30px;
+}
+
+.footer-street-academy-logo a:hover{
+	opacity: .6;
+}
+
+.footer-categories{
+	float: right;
+	width: 640px;
+}
+
+.footer-categories ul{
+	margin: 0;
+	padding: 0;
+}
+
+.footer-categories li{
+	float: left;
+	display: block;
+	height: 45px;
+	margin: 0 0 0 0px;
+	padding: 0 5px;
+	line-height: 40px;
+}
+
+.footer-categories li:first-child,
+.footer-categories li:nth-child(3n+1){
+	margin-left: 0;
+}
+
+.footer-categories a{
+	width: 210px;
+	height: 45px;
+}
+
+
+/* footer-copyright */
+
+.footer-copyright{
+	padding: 15px 0 35px;
+	background: #bababa url(./images/footer-copyright-bg.png) scroll repeat 0 0;
+}
+
+.footer-copyright nav{
+	float: left;
+	width: 300px;
+}
+
+.footer-copyright ul{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+.footer-copyright ul:before{
+	content: ' | ';
+}
+
+.footer-copyright li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-copyright li:after{
+	content: ' | ';
+}
+
+.footer-copyright li a:link{
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer-copyright small{
+	float: right;
+	width: 650px;
+	color: #fff;
+	text-align: right;
+	font-size: .83em;
+	font-weight: bold;
+}
+
+
+/* ==========================================================================
+ * categories
+ * ========================================================================== */
+
+#mycategorieswidget-2 ul li{
+	line-height: 24px;
+}
+
+
+/* cat-label */
+
+a.cat-label{
+	display: inline-block;
+	padding: .25em;
+	font-weight: normal;
+	text-decoration: none;
+	line-height: 1;
+}
+
+a.cat-label:link,
+a.cat-label:visited{
+	color: #fff;
+	background-color: #8dc21f;
+}
+
+a.cat-label:hover,
+a.cat-label:visited:hover{
+	opacity: .6;
+}
+
+/* cat-icon, cat-color */
+
+a.cat-icon{
+	overflow: hidden;
+	display: inline-block;
+	background-color: transparent;
+	font-size: .83em;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+a.cat-icon:hover,
+a.cat-icon:visited:hover,
+a.cat-color
+{
+	opacity: .6;
+	color: #000;
+}
+
+/* icon-category*/
+
+.icon-category{
+	display: inline-block;
+	width: 25px;
+	height: 22px;
+	margin: 0 5px 0 0;
+	vertical-align: middle;
+	background: transparent url(./images/icon.png) scroll no-repeat center;
+}
+
+.icon-cat-2{ /* mama-and-kids */
+	background-position: -175px 0;
+}
+
+.icon-cat-3{ /* technology */
+	background-position: -150px 0;
+}
+
+.icon-cat-4{ /* fitness */
+	background-position: -125px 0;
+}
+
+.icon-cat-5{ /* cooking */
+	background-position: -100px 0;
+}
+
+.icon-cat-6{ /* language */
+	background-position: -75px 0;
+}
+
+.icon-cat-7{ /* hobby */
+	background-position: -50px 0;
+}
+
+.icon-cat-8{ /* business */
+	background-position: -25px 0;
+}
+
+.icon-cat-9{ /* making */
+	background-position: 0 0;
+}
+
+
+
+/* ==========================================================================
+ * some wp related styles
+ * ========================================================================== */
+
+/* Alignment */
+.alignleft{
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright{
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter{
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Images */
+.wp-caption{
+	margin-top: .5em;
+}
+
+.wp-caption{
+	background: #ddd;
+	max-width: 96%;
+	padding: .5em;
+	background-color: #ddd;
+}
+
+.wp-caption img{
+	display: block;
+	margin: 0 auto;
+	max-width: 98%;
+}
+
+.wp-caption
+.wp-caption-text,
+.gallery-caption{
+	color: #777;
+	font-size: 0.83em;
+}
+
+.wp-caption
+.wp-caption-text{
+	margin-bottom: 0.5em;
+	padding: 10px 0 5px 40px;
+	position: relative;
+}
+
+.wp-caption
+.wp-caption-text:before{
+	color: #666;
+	content: '\2014';
+	font-size: 1em;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 5px;
+	position: absolute;
+	left: 10px;
+	top: 7px;
+}
+
+
+/* ================================================================================
+   Media queries | Smartphones portrait/landscape
+   ================================================================================ */
+
+@media only screen and (min-device-width : 320px) and (max-device-width: 480px) {
+
+	/* layout
+	 * -------------------------------------------------------------------------------- */
+
+	.wrapper{
+		overflow: hidden;
+		width: 100%;
+	}
+
+	.content,
+	.sidebar{
+		float: none;
+		width: 100%;
+	}
+
+	.content{
+		margin: 0;
+		padding: 0;
+		box-shadow: none;
+	}
+
+	.home .content,
+	.blog .content{
+		padding: 10px 0 0;
+		border-bottom: 2px #ccc dotted;
+	}
+
+	.archive .content,
+	.error404 .content{
+		padding: 0 0 1px;
+	}
+
+	.main-container{
+		margin: 0;
+	}
+
+
+	/* header
+	 * -------------------------------------------------------------------------------- */
+
+	.header-container{
+		overflow: hidden;
+		width: 100%;
+		height: auto;
+		background-color: #222;
+		box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .27);
+		text-align: center;
+	}
+
+	.header-logo-container{
+		float: none;
+		width: 100%;
+		height: 87px;
+		border-radius: 0;
+		box-shadow: none;
+	}
+
+	.header-logo-container:after{
+		display: none;
+	}
+
+	.header-logo{
+		width: 300px;
+		height: 52px;
+		margin: 0 auto;
+		padding: 25px 0 0;
+	}
+
+	.header-logo a{
+		width: 300px;
+		height: 52px;
+		background-position: 0 0;
+		background-size: 300px 52px;
+	}
+
+	.header-tagline{
+		display: inline-block;
+		float: none;
+		width: 100%;
+		height: auto;
+		margin: 5px;
+		background: none;
+		color: #fff;
+		font-size: .75em;
+	}
+
+	.header-tagline.ir{
+		overflow: visible;
+	}
+
+	.header-tagline.ir:before {
+		display: none;
+	}
+
+
+	/* sidebar-widget
+	 * -------------------------------------------------------------------------------- */
+
+	/* sidebar-badges */
+
+	.sidebar-widget{
+		margin: 10px 0;
+		padding: 0;
+	}
+
+	/* sidebar-badges */
+
+	.sidebar-badges{
+		text-align: center;
+	}
+
+	.sidebar-badges li,
+	.sidebar-badges li:last-child{
+		display: inline-block;
+		float: none;
+		margin: 0 10px;
+	}
+
+	/* popular-posts, recent-posts */
+
+	.widget_myrecentpostswidget h2,
+	.widget_rrm_popular_posts h2,
+	.recent-posts h2{
+		padding: 10px;
+	}
+
+	/* widget_recent_entries */
+
+	.listed-entry{
+		margin: 0 10px 10px;
+	}
+
+	.listed-entry .entry-detail{
+		width: 77.5%;
+	}
+
+	.listed-entry .entry-image{
+		width: 20%;
+	}
+
+	.listed-entry .entry-image a,
+	.listed-entry .entry-image img{
+		width: 100%;
+		height: auto;
+	}
+
+	/* widget_mycategorieswidget, widget_archive */
+
+	.widget_mycategorieswidget,
+	.widget_archive{
+		margin: 10px 0;
+		padding: 10px;
+		background: none;
+		border-top: 1px solid #16462c;
+		border-radius: 0;
+		box-shadow: none;
+	}
+
+
+	/* entry, entries
+	 * -------------------------------------------------------------------------------- */
+
+	.entry,
+	.entries .entry{
+		width: auto;
+		margin: 10px;
+		padding: 10px;
+		background-image: none;
+		background-color: #fff;
+		box-shadow: inset 0 0 0 1px #d1d1d1, 0 3px 6px -2px rgba(0, 0, 0, .3);
+	}
+
+	.entries .entry:first-child{
+		margin-top: 0;
+	}
+
+	.entry-header,
+	.entries .entry-header{
+		width: auto;
+		margin: 0 0 10px;
+	}
+
+	.entry-header .teacher-profile,
+	.entries .entry-header .teacher-profile{
+		width: 77%;
+	}
+
+	.entry-header .teacher-name,
+	.entries .entry-header .teacher-name{
+		font-size: 1em;
+	}
+
+	.teacher-name-roman,
+	.teacher-title,
+	.entry-header .teacher-name-roman,
+	.entry-header .teacher-title{
+		font-size: 1em;
+	}
+
+	.entry-header .teacher-excerpt,
+	.entries .entry-header .teacher-excerpt{
+		font-size: 1em;
+	}
+
+	.entry-header .teacher-excerpt *,
+	.entries .entry-header .teacher-excerpt *{
+		margin: 0;
+		font-size: 1em;
+		letter-spacing: -1px;
+	}
+
+	 .entry-header .teacher-photo,
+	.entries .entry-header .teacher-photo{
+		width: 20%;
+		height: auto;
+	}
+
+	.entry-header .teacher-photo a,
+	.entry-header .teacher-photo img,
+	.entries .entry-header .teacher-photo a,
+	.entries .entry-header .teacher-photo img{
+		width: 100%;
+		height: auto;
+	}
+
+	.entry-meta,
+	.entries .entry-meta{
+		margin: 0;
+		padding: 5px 10px;
+	}
+
+	.entry-meta ul{
+		float: none;
+		width: 100%;
+	}
+
+	.btn-share{
+		float: none;
+		width: 100%;
+		text-align: left;
+	}
+
+
+	/* entry
+	 * -------------------------------------------------------------------------------- */
+
+	.single .content.entry{
+		margin: 10px 10px 20px;
+		border-bottom: 0;
+	}
+
+	.single .entry-header{
+		padding: 10px
+	}
+
+	.single .entry-header .teacher-name{
+		display: inline-block;
+		font-size: 1em;
+	}
+
+	.single .entry-header .teacher-title{
+		padding: 0;
+	}
+
+	.single .entry-header .teacher-profile ul{
+		display: inline;
+		margin: 0;
+	}
+
+	.single .entry-header .teacher-name-roman{
+		padding-left: .5em;
+	}
+
+	.single .entry-header .teacher-excerpt{
+		margin: 10px 0 0;
+		font-size: 1em;
+	}
+
+	.single .entry-body{
+		margin: 0 5px;
+	}
+
+
+	/* pagination
+	 * -------------------------------------------------------------------------------- */
+
+	.pagination{
+		margin: 0;
+		padding: 30px 0;
+	}
+
+	.pagination a,
+	.pagination span{
+		margin: 0 5px;
+	}
+
+
+	/* footer
+	 * -------------------------------------------------------------------------------- */
+
+	.footer-container{
+		padding: 15px 0 0 0;
+	}
+
+	/* footer-entry-meta */
+
+	.footer-entry-meta{
+		margin: 0;
+		padding: 10px;
+	}
+
+	/* .footer-classes */
+
+	.footer-classes{
+		float: none;
+		width: auto;
+		margin: 0;
+		padding: 10px;
+	}
+
+	.footer-classes h2{
+		font-size: 1em;
+	}
+
+	.footer-teacher-profile-container{
+		float: none;
+		width: auto;
+		margin: 0 0 10px;
+		padding: 10px;
+	}
+
+	.footer-teacher-profile .teacher-profile{
+		width: 57%;
+	}
+
+	.footer-teacher-profile .teacher-photo{
+		width: 40%;
+		height: auto;
+	}
+
+	.footer-teacher-profile .teacher-photo img{
+		width: 100%;
+		height: auto;
+	}
+
+	.footer-class .class-image{
+		width: 20%;
+		height: auto;
+	}
+
+	.footer-class .class-image img{
+		width: 100%;
+	}
+
+	.footer-class .class-detail{
+		width: 77%;
+	}
+
+	/* footer-utilities */
+
+	.footer-utilities{
+		padding: 10px 0;
+	}
+
+	.footer-street-academy-logo{
+		float: none;
+		margin: 0 auto;
+	}
+
+	.footer-categories{
+		float: none;
+		width: auto;
+		margin: 10px 0 0;
+	}
+
+	.footer-categories li{
+		width: 145px;
+		height: 40px;
+		margin: 0 0 0 10px;
+		padding: 0;
+	}
+
+	.footer-categories li:first-child,
+	.footer-categories li:nth-child(n){
+		margin-left: 10px;
+	}
+
+	.footer-categories a{
+		width: 145px;
+		height: 40px;
+	}
+
+
+	/* footer-copyright */
+
+	.footer-copyright{
+		padding: 10px;
+	}
+
+	.footer-copyright nav{
+		float: none;
+		width: auto;
+		font-size: .83em;
+	}
+
+
+	.footer-copyright small{
+		float: none;
+		width: auto;
+		text-align: left;
+	}
+
+
+	/* categories
+	 * -------------------------------------------------------------------------------- */
+
+	/* cat-icon, cat-color */
+
+	a.cat-icon{
+		overflow: hidden;
+		font-size: .75em;
+		white-space: nowrap;
+	}
+
+
+	/* some wp related styles
+	 * -------------------------------------------------------------------------------- */
+
+	.alignleft,
+	.alignright,
+	.aligncenter{
+		overflow: hidden;
+		display: block;
+		float: none;
+		width: 100%;
+		margin: 0 0 1.5em;
+	}
+
+	.alignleft img,
+	.alignright img,
+	.aligncenter img{
+		width: 100%;
+		height: auto;
+	}
+
+}
+
+
+/* ================================================================================
+   Media queries | Tablets (portrait)
+   ================================================================================ */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Tablets (portrait) */
+
+	/* layout
+	 * -------------------------------------------------------------------------------- */
+
+	.wrapper{
+		overflow: hidden;
+		width: 100%;
+	}
+
+	.content{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		box-shadow: none;
+	}
+
+	.home .content,
+	.blog .content{
+		padding: 10px 0 0;
+		border-bottom: 2px #ccc dotted;
+	}
+
+	.archive .content,
+	.error404 .content{
+		padding: 0 0 1px;
+	}
+
+	.main-container{
+		margin: 0;
+	}
+
+	.sidebar{
+		float: none;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+
+	/* header
+	 * -------------------------------------------------------------------------------- */
+
+	.header-container{
+		height: auto;
+		background-color: #222;
+	}
+
+	.header-logo-container{
+		float: none;
+		margin: 0 auto;
+	}
+
+	.header-tagline{
+		display: block;
+		float: none;
+		margin: 10px auto;
+	}
+
+	/* sidebar
+	 * -------------------------------------------------------------------------------- */
+
+	.sidebar-widget{
+		float: left;
+		width: 243px;
+		margin: 20px 0 20px 10px;
+	}
+
+	/* sidebar-badges */
+
+	.sidebar-badges{
+		float: none;
+		width: 100%;
+		margin: 0;
+		background-color: rgba(0, 0, 0, 0.1);
+	}
+
+	.sidebar-badges ul{
+		padding: 20px 0 10px;
+		text-align: center;
+	}
+
+	.sidebar-badges li,
+	.sidebar-badges li:last-child{
+		display: inline-block;
+		float: none;
+		margin: 0 10px;
+	}
+
+	.sidebar-badges li img{
+		display: inline-block;
+		vertical-align: baseline;
+	}
+
+	.sidebar-badges li:first-child img{
+		margin-bottom: -10px;
+	}
+
+
+	/* widget_recent_entries */
+
+	.listed-entry .entry-detail{
+		width: 175px;
+	}
+
+	/* widget_mycategorieswidget, widget_archive */
+
+	.widget_mycategorieswidget,
+	.widget_archive{
+		padding: 0;
+		background: transparent;
+		border-radius: 0;
+		box-shadow: none;
+	}
+
+	.widget_mycategorieswidget h2,
+	.widget_archive h2{
+		margin: 0 0 15px;
+		padding: 10px 0;
+		color: #16462c;
+		background-image: url(./images/border-green.png), url(./images/border-green.png);
+		background-attachment: scroll scroll;
+		background-repeat: repeat-x, repeat-x;
+		background-position: top left, bottom left;
+		font-size: 1em;
+	}
+
+
+	/* entry, entries
+	 * -------------------------------------------------------------------------------- */
+
+	.entry,
+	.entries .entry{
+		width: auto;
+		margin: 10px;
+		padding: 10px;
+		background-image: none;
+		background-color: #fff;
+		box-shadow: inset 0 0 0 1px #d1d1d1, 0 3px 6px -2px rgba(0, 0, 0, .3);
+	}
+
+	.entries .entry:first-child{
+		margin-top: 0;
+	}
+
+	.entry-header,
+	.entries-header{
+		width: auto;
+	}
+
+
+	.entry-header .teacher-profile{
+		width: 470px;
+	}
+
+
+	/* pagination
+	 * -------------------------------------------------------------------------------- */
+
+	.pagination{
+		margin: 0;
+		padding: 30px 0;
+	}
+
+
+	/* footer
+	 * -------------------------------------------------------------------------------- */
+
+	.footer-container{
+		padding: 15px 0 0 0;
+	}
+
+	/* footer-entry-meta */
+
+	.footer-entry-meta{
+		margin: 0;
+		padding: 10px;
+	}
+
+	/* .footer-classes */
+
+	.footer-classes{
+		width: 420px;
+		padding: 10px;
+	}
+
+	.footer-class .class-detail{
+		width: 290px;
+	}
+
+	/* footer-utilities */
+
+	.footer-utilities{
+		padding: 10px 0;
+	}
+
+	.footer-street-academy-logo{
+		margin: 0 0 0 10px;
+	}
+
+	.footer-categories{
+		float: left;
+		width: 420px;
+		margin: 0 0 0 20px;
+	}
+
+	.footer-categories li,
+	.footer-categories li a{
+		width: 180px;
+	}
+
+	/* footer-copyright */
+
+	.footer-copyright{
+		padding: 10px;
+		text-align: center;
+	}
+
+	.footer-copyright nav{
+		float: none;
+		width: auto;
+	}
+
+	.footer-copyright small{
+		float: none;
+		width: auto;
+		text-align: left;
+	}
+
+}
+
+
+/* ==========================================================================
+   Print styles | h5bp.com/r
+   ========================================================================== */
+
+@media print{*{background:transparent!important;color:#000!important;box-shadow:none!important;text-shadow:none!important}a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100%!important}@page{margin:.5cm}p,h2,h3{orphans:3;widows:3}h2,h3{page-break-after:avoid}}
